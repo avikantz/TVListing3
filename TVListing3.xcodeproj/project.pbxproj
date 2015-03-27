@@ -9,11 +9,116 @@
 /* Begin PBXBuildFile section */
 		59220B501A51A200007230A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59220B4F1A51A200007230A8 /* main.m */; };
 		59220B531A51A200007230A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59220B521A51A200007230A8 /* AppDelegate.m */; };
-		59220B561A51A200007230A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59220B551A51A200007230A8 /* ViewController.m */; };
 		59220B591A51A200007230A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59220B571A51A200007230A8 /* Main.storyboard */; };
 		59220B5B1A51A200007230A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59220B5A1A51A200007230A8 /* Images.xcassets */; };
 		59220B5E1A51A200007230A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59220B5C1A51A200007230A8 /* LaunchScreen.xib */; };
 		59220B6A1A51A200007230A8 /* TVListing3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59220B691A51A200007230A8 /* TVListing3Tests.m */; };
+		59220B781A51A286007230A8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59220B771A51A286007230A8 /* TableViewController.m */; };
+		59220B7B1A51A9A3007230A8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59220B7A1A51A9A3007230A8 /* DetailViewController.m */; };
+		59220B7D1A51AAC8007230A8 /* TVList.json in Resources */ = {isa = PBXBuildFile; fileRef = 59220B7C1A51AAC8007230A8 /* TVList.json */; };
+		59220B801A51B4F9007230A8 /* TVShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 59220B7F1A51B4F9007230A8 /* TVShow.m */; };
+		59220B891A51BD67007230A8 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59220B881A51BD67007230A8 /* TableViewCell.m */; };
+		59220BD11A51DE7F007230A8 /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B8A1A51DE7F007230A8 /* 24.jpg */; };
+		59220BD21A51DE7F007230A8 /* American Horror Story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B8B1A51DE7F007230A8 /* American Horror Story.jpg */; };
+		59220BD31A51DE7F007230A8 /* Archer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B8C1A51DE7F007230A8 /* Archer.jpg */; };
+		59220BD41A51DE7F007230A8 /* Arrested Developement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B8D1A51DE7F007230A8 /* Arrested Developement.jpg */; };
+		59220BD51A51DE7F007230A8 /* Arrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B8E1A51DE7F007230A8 /* Arrow.jpg */; };
+		59220BD61A51DE7F007230A8 /* Attack on Titan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B8F1A51DE7F007230A8 /* Attack on Titan.jpg */; };
+		59220BD71A51DE7F007230A8 /* Boston Legal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B901A51DE7F007230A8 /* Boston Legal.jpg */; };
+		59220BD81A51DE7F007230A8 /* Boy Meets World.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B911A51DE7F007230A8 /* Boy Meets World.jpg */; };
+		59220BD91A51DE7F007230A8 /* Breaking Bad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B921A51DE7F007230A8 /* Breaking Bad.jpg */; };
+		59220BDA1A51DE7F007230A8 /* Brooklyn Nine-Nine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B931A51DE7F007230A8 /* Brooklyn Nine-Nine.jpg */; };
+		59220BDB1A51DE7F007230A8 /* Castle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B941A51DE7F007230A8 /* Castle.jpg */; };
+		59220BDC1A51DE7F007230A8 /* Community.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B951A51DE7F007230A8 /* Community.jpg */; };
+		59220BDD1A51DE7F007230A8 /* Cosmos - A Personal Voyage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B961A51DE7F007230A8 /* Cosmos - A Personal Voyage.jpg */; };
+		59220BDE1A51DE7F007230A8 /* Cosmos - A Spacetime Odessy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B971A51DE7F007230A8 /* Cosmos - A Spacetime Odessy.jpg */; };
+		59220BDF1A51DE7F007230A8 /* Coupling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B981A51DE7F007230A8 /* Coupling.jpg */; };
+		59220BE01A51DE7F007230A8 /* Da Vinci's Demons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B991A51DE7F007230A8 /* Da Vinci's Demons.jpg */; };
+		59220BE11A51DE7F007230A8 /* Death Note.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B9A1A51DE7F007230A8 /* Death Note.jpg */; };
+		59220BE21A51DE7F007230A8 /* Dexter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B9B1A51DE7F007230A8 /* Dexter.jpg */; };
+		59220BE31A51DE7F007230A8 /* Doctor Who.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B9C1A51DE7F007230A8 /* Doctor Who.jpg */; };
+		59220BE41A51DE7F007230A8 /* Dragon Ball GT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B9D1A51DE7F007230A8 /* Dragon Ball GT.jpg */; };
+		59220BE51A51DE7F007230A8 /* Dragon Ball Z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B9E1A51DE7F007230A8 /* Dragon Ball Z.jpg */; };
+		59220BE61A51DE7F007230A8 /* Fargo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220B9F1A51DE7F007230A8 /* Fargo.jpg */; };
+		59220BE71A51DE7F007230A8 /* Firefly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA01A51DE7F007230A8 /* Firefly.jpg */; };
+		59220BE81A51DE7F007230A8 /* Friends.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA11A51DE7F007230A8 /* Friends.jpg */; };
+		59220BE91A51DE7F007230A8 /* Game of Thrones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA21A51DE7F007230A8 /* Game of Thrones.jpg */; };
+		59220BEA1A51DE7F007230A8 /* Gotham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA31A51DE7F007230A8 /* Gotham.jpg */; };
+		59220BEB1A51DE7F007230A8 /* Gracepoint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA41A51DE7F007230A8 /* Gracepoint.jpg */; };
+		59220BEC1A51DE7F007230A8 /* Hannibal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA51A51DE7F007230A8 /* Hannibal.jpg */; };
+		59220BED1A51DE7F007230A8 /* Homeland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA61A51DE7F007230A8 /* Homeland.jpg */; };
+		59220BEE1A51DE7F007230A8 /* House MD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA71A51DE7F007230A8 /* House MD.jpg */; };
+		59220BEF1A51DE7F007230A8 /* House of Cards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA81A51DE7F007230A8 /* House of Cards.jpg */; };
+		59220BF01A51DE7F007230A8 /* How I Met Your Mother.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BA91A51DE7F007230A8 /* How I Met Your Mother.jpg */; };
+		59220BF11A51DE7F007230A8 /* Intelligence US.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BAA1A51DE7F007230A8 /* Intelligence US.jpg */; };
+		59220BF21A51DE7F007230A8 /* Joey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BAB1A51DE7F007230A8 /* Joey.jpg */; };
+		59220BF31A51DE7F007230A8 /* Mad Men.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BAC1A51DE7F007230A8 /* Mad Men.jpg */; };
+		59220BF41A51DE7F007230A8 /* Malcolm in the Middle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BAD1A51DE7F007230A8 /* Malcolm in the Middle.jpg */; };
+		59220BF51A51DE7F007230A8 /* Marvel's Agents of SHIELD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BAE1A51DE7F007230A8 /* Marvel's Agents of SHIELD.jpg */; };
+		59220BF61A51DE7F007230A8 /* Masters of Sex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BAF1A51DE7F007230A8 /* Masters of Sex.jpg */; };
+		59220BF71A51DE7F007230A8 /* Men At Work.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB01A51DE7F007230A8 /* Men At Work.jpg */; };
+		59220BF81A51DE7F007230A8 /* Modern Family.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB11A51DE7F007230A8 /* Modern Family.jpg */; };
+		59220BF91A51DE7F007230A8 /* Mr. Bean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB21A51DE7F007230A8 /* Mr. Bean.jpg */; };
+		59220BFA1A51DE7F007230A8 /* Olive Kitteridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB31A51DE7F007230A8 /* Olive Kitteridge.jpg */; };
+		59220BFB1A51DE7F007230A8 /* Once Upon a Time.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB41A51DE7F007230A8 /* Once Upon a Time.jpg */; };
+		59220BFC1A51DE7F007230A8 /* Orange is the New Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB51A51DE7F007230A8 /* Orange is the New Black.jpg */; };
+		59220BFD1A51DE7F007230A8 /* Orphan Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB61A51DE7F007230A8 /* Orphan Black.jpg */; };
+		59220BFE1A51DE7F007230A8 /* Penny Dreadful.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB71A51DE7F007230A8 /* Penny Dreadful.jpg */; };
+		59220BFF1A51DE7F007230A8 /* Person of Interest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB81A51DE7F007230A8 /* Person of Interest.jpg */; };
+		59220C001A51DE7F007230A8 /* Planet Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BB91A51DE7F007230A8 /* Planet Earth.jpg */; };
+		59220C011A51DE7F007230A8 /* Prison Break.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BBA1A51DE7F007230A8 /* Prison Break.jpg */; };
+		59220C021A51DE7F007230A8 /* Rick and Morty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BBB1A51DE7F007230A8 /* Rick and Morty.jpg */; };
+		59220C031A51DE7F007230A8 /* Seinfeld.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BBC1A51DE7F007230A8 /* Seinfeld.jpg */; };
+		59220C041A51DE7F007230A8 /* Sherlock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BBD1A51DE7F007230A8 /* Sherlock.jpg */; };
+		59220C051A51DE7F007230A8 /* Silicon Valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BBE1A51DE7F007230A8 /* Silicon Valley.jpg */; };
+		59220C061A51DE7F007230A8 /* Sleepy Hollow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BBF1A51DE7F007230A8 /* Sleepy Hollow.jpg */; };
+		59220C071A51DE7F007230A8 /* Star Wars - The Clone Wars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC01A51DE7F007230A8 /* Star Wars - The Clone Wars.jpg */; };
+		59220C081A51DE7F007230A8 /* Star Wars Rebels.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC11A51DE7F007230A8 /* Star Wars Rebels.jpg */; };
+		59220C091A51DE7F007230A8 /* The Adventures of Sherlock Holmes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC21A51DE7F007230A8 /* The Adventures of Sherlock Holmes.jpg */; };
+		59220C0A1A51DE7F007230A8 /* The Big Bang Theory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC31A51DE7F007230A8 /* The Big Bang Theory.jpg */; };
+		59220C0B1A51DE7F007230A8 /* The Blacklist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC41A51DE7F007230A8 /* The Blacklist.jpg */; };
+		59220C0C1A51DE7F007230A8 /* The Crazy Ones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC51A51DE7F007230A8 /* The Crazy Ones.jpg */; };
+		59220C0D1A51DE7F007230A8 /* The Cyanide and Happiness Show.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC61A51DE7F007230A8 /* The Cyanide and Happiness Show.jpg */; };
+		59220C0E1A51DE7F007230A8 /* The Flash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC71A51DE7F007230A8 /* The Flash.jpg */; };
+		59220C0F1A51DE7F007230A8 /* The Office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC81A51DE7F007230A8 /* The Office.jpg */; };
+		59220C101A51DE7F007230A8 /* The Thick of It.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BC91A51DE7F007230A8 /* The Thick of It.jpg */; };
+		59220C111A51DE7F007230A8 /* The Walking Dead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BCA1A51DE7F007230A8 /* The Walking Dead.jpg */; };
+		59220C121A51DE7F007230A8 /* The Wire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BCB1A51DE7F007230A8 /* The Wire.jpg */; };
+		59220C131A51DE7F007230A8 /* Torchwood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BCC1A51DE7F007230A8 /* Torchwood.jpg */; };
+		59220C141A51DE7F007230A8 /* True Blood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BCD1A51DE7F007230A8 /* True Blood.jpg */; };
+		59220C151A51DE7F007230A8 /* True Detective.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BCE1A51DE7F007230A8 /* True Detective.jpg */; };
+		59220C161A51DE7F007230A8 /* Two and a Half Men.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BCF1A51DE7F007230A8 /* Two and a Half Men.jpg */; };
+		59220C171A51DE7F007230A8 /* Under the Dome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59220BD01A51DE7F007230A8 /* Under the Dome.jpg */; };
+		5941C0231ABAF63A00A5C5EC /* iZombie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5941C0221ABAF63A00A5C5EC /* iZombie.jpg */; };
+		5941C0251ABAF67200A5C5EC /* How to Get Away with Murder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5941C0241ABAF67200A5C5EC /* How to Get Away with Murder.jpg */; };
+		5941C0271ABAF83C00A5C5EC /* The Last Man on Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5941C0261ABAF83C00A5C5EC /* The Last Man on Earth.jpg */; };
+		596A2F611A62F7B400E327D7 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596A2F601A62F7B400E327D7 /* AddViewController.m */; };
+		597C3B4A1A56AF6D009A9572 /* Battlestar Galactica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 597C3B481A56AF6D009A9572 /* Battlestar Galactica.jpg */; };
+		597C3B4B1A56AF6D009A9572 /* Buffy the Vampire Slayer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 597C3B491A56AF6D009A9572 /* Buffy the Vampire Slayer.jpg */; };
+		5988E9981A52EEF300F90FB4 /* TVIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5988E9971A52EEF300F90FB4 /* TVIcon.png */; };
+		5988E99A1A52F58400F90FB4 /* topView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5988E9991A52F58400F90FB4 /* topView.xib */; };
+		5988E99D1A52F63C00F90FB4 /* topView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5988E99C1A52F63C00F90FB4 /* topView.m */; };
+		599AE1911A8DD75400E122C1 /* Better Call Saul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 599AE18C1A8DD75400E122C1 /* Better Call Saul.jpg */; };
+		599AE1921A8DD75400E122C1 /* Fringe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 599AE18D1A8DD75400E122C1 /* Fringe.jpg */; };
+		599AE1931A8DD75400E122C1 /* Marvel's Agent Carter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 599AE18E1A8DD75400E122C1 /* Marvel's Agent Carter.jpg */; };
+		599AE1951A8DD75400E122C1 /* White Collar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 599AE1901A8DD75400E122C1 /* White Collar.jpg */; };
+		599AE1971A8DD80A00E122C1 /* Utopia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 599AE1961A8DD80A00E122C1 /* Utopia.jpg */; };
+		599AE19A1A8DDBF100E122C1 /* 12 Monkeys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 599AE1981A8DDBF100E122C1 /* 12 Monkeys.jpg */; };
+		599AE19B1A8DDBF100E122C1 /* Vikings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 599AE1991A8DDBF100E122C1 /* Vikings.jpg */; };
+		59A617BB1A5852F200F74465 /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A617B71A5852F200F74465 /* facebook@2x.png */; };
+		59A617BD1A5852F200F74465 /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A617B91A5852F200F74465 /* message@2x.png */; };
+		59A617BE1A5852F200F74465 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A617BA1A5852F200F74465 /* twitter@2x.png */; };
+		59A617CB1A58559800F74465 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A617C01A58559800F74465 /* NSMutableArray+SWUtilityButtons.m */; };
+		59A617CC1A58559800F74465 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A617C21A58559800F74465 /* SWCellScrollView.m */; };
+		59A617CD1A58559800F74465 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A617C41A58559800F74465 /* SWLongPressGestureRecognizer.m */; };
+		59A617CE1A58559800F74465 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A617C61A58559800F74465 /* SWTableViewCell.m */; };
+		59A617CF1A58559800F74465 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A617C81A58559800F74465 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		59A617D01A58559800F74465 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A617CA1A58559800F74465 /* SWUtilityButtonView.m */; };
+		59A617D21A585D9100F74465 /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A617D11A585D9100F74465 /* save@2x.png */; };
+		59A617D41A58623E00F74465 /* bin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A617D31A58623E00F74465 /* bin@2x.png */; };
+		59A617D61A58655C00F74465 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A617D51A58655C00F74465 /* MessageUI.framework */; };
+		59A617D81A58675700F74465 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A617D71A58675700F74465 /* Social.framework */; };
+		59C9761E1A551ADC00820B37 /* Spaced.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59C9761D1A551ADC00820B37 /* Spaced.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +137,130 @@
 		59220B4F1A51A200007230A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59220B511A51A200007230A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59220B521A51A200007230A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		59220B541A51A200007230A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		59220B551A51A200007230A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		59220B581A51A200007230A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59220B5A1A51A200007230A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		59220B5D1A51A200007230A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		59220B631A51A200007230A8 /* TVListing3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVListing3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59220B681A51A200007230A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59220B691A51A200007230A8 /* TVListing3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVListing3Tests.m; sourceTree = "<group>"; };
+		59220B761A51A286007230A8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		59220B771A51A286007230A8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		59220B791A51A9A3007230A8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		59220B7A1A51A9A3007230A8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		59220B7C1A51AAC8007230A8 /* TVList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TVList.json; sourceTree = "<group>"; };
+		59220B7E1A51B4F9007230A8 /* TVShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVShow.h; sourceTree = "<group>"; };
+		59220B7F1A51B4F9007230A8 /* TVShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVShow.m; sourceTree = "<group>"; };
+		59220B871A51BD67007230A8 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		59220B881A51BD67007230A8 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		59220B8A1A51DE7F007230A8 /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
+		59220B8B1A51DE7F007230A8 /* American Horror Story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "American Horror Story.jpg"; sourceTree = "<group>"; };
+		59220B8C1A51DE7F007230A8 /* Archer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Archer.jpg; sourceTree = "<group>"; };
+		59220B8D1A51DE7F007230A8 /* Arrested Developement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arrested Developement.jpg"; sourceTree = "<group>"; };
+		59220B8E1A51DE7F007230A8 /* Arrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arrow.jpg; sourceTree = "<group>"; };
+		59220B8F1A51DE7F007230A8 /* Attack on Titan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Attack on Titan.jpg"; sourceTree = "<group>"; };
+		59220B901A51DE7F007230A8 /* Boston Legal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boston Legal.jpg"; sourceTree = "<group>"; };
+		59220B911A51DE7F007230A8 /* Boy Meets World.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boy Meets World.jpg"; sourceTree = "<group>"; };
+		59220B921A51DE7F007230A8 /* Breaking Bad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Breaking Bad.jpg"; sourceTree = "<group>"; };
+		59220B931A51DE7F007230A8 /* Brooklyn Nine-Nine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brooklyn Nine-Nine.jpg"; sourceTree = "<group>"; };
+		59220B941A51DE7F007230A8 /* Castle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Castle.jpg; sourceTree = "<group>"; };
+		59220B951A51DE7F007230A8 /* Community.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Community.jpg; sourceTree = "<group>"; };
+		59220B961A51DE7F007230A8 /* Cosmos - A Personal Voyage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cosmos - A Personal Voyage.jpg"; sourceTree = "<group>"; };
+		59220B971A51DE7F007230A8 /* Cosmos - A Spacetime Odessy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cosmos - A Spacetime Odessy.jpg"; sourceTree = "<group>"; };
+		59220B981A51DE7F007230A8 /* Coupling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Coupling.jpg; sourceTree = "<group>"; };
+		59220B991A51DE7F007230A8 /* Da Vinci's Demons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Da Vinci's Demons.jpg"; sourceTree = "<group>"; };
+		59220B9A1A51DE7F007230A8 /* Death Note.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Death Note.jpg"; sourceTree = "<group>"; };
+		59220B9B1A51DE7F007230A8 /* Dexter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dexter.jpg; sourceTree = "<group>"; };
+		59220B9C1A51DE7F007230A8 /* Doctor Who.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Doctor Who.jpg"; sourceTree = "<group>"; };
+		59220B9D1A51DE7F007230A8 /* Dragon Ball GT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dragon Ball GT.jpg"; sourceTree = "<group>"; };
+		59220B9E1A51DE7F007230A8 /* Dragon Ball Z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dragon Ball Z.jpg"; sourceTree = "<group>"; };
+		59220B9F1A51DE7F007230A8 /* Fargo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fargo.jpg; sourceTree = "<group>"; };
+		59220BA01A51DE7F007230A8 /* Firefly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Firefly.jpg; sourceTree = "<group>"; };
+		59220BA11A51DE7F007230A8 /* Friends.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Friends.jpg; sourceTree = "<group>"; };
+		59220BA21A51DE7F007230A8 /* Game of Thrones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Game of Thrones.jpg"; sourceTree = "<group>"; };
+		59220BA31A51DE7F007230A8 /* Gotham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gotham.jpg; sourceTree = "<group>"; };
+		59220BA41A51DE7F007230A8 /* Gracepoint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gracepoint.jpg; sourceTree = "<group>"; };
+		59220BA51A51DE7F007230A8 /* Hannibal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hannibal.jpg; sourceTree = "<group>"; };
+		59220BA61A51DE7F007230A8 /* Homeland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Homeland.jpg; sourceTree = "<group>"; };
+		59220BA71A51DE7F007230A8 /* House MD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "House MD.jpg"; sourceTree = "<group>"; };
+		59220BA81A51DE7F007230A8 /* House of Cards.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "House of Cards.jpg"; sourceTree = "<group>"; };
+		59220BA91A51DE7F007230A8 /* How I Met Your Mother.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "How I Met Your Mother.jpg"; sourceTree = "<group>"; };
+		59220BAA1A51DE7F007230A8 /* Intelligence US.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Intelligence US.jpg"; sourceTree = "<group>"; };
+		59220BAB1A51DE7F007230A8 /* Joey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Joey.jpg; sourceTree = "<group>"; };
+		59220BAC1A51DE7F007230A8 /* Mad Men.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mad Men.jpg"; sourceTree = "<group>"; };
+		59220BAD1A51DE7F007230A8 /* Malcolm in the Middle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Malcolm in the Middle.jpg"; sourceTree = "<group>"; };
+		59220BAE1A51DE7F007230A8 /* Marvel's Agents of SHIELD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marvel's Agents of SHIELD.jpg"; sourceTree = "<group>"; };
+		59220BAF1A51DE7F007230A8 /* Masters of Sex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Masters of Sex.jpg"; sourceTree = "<group>"; };
+		59220BB01A51DE7F007230A8 /* Men At Work.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Men At Work.jpg"; sourceTree = "<group>"; };
+		59220BB11A51DE7F007230A8 /* Modern Family.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Modern Family.jpg"; sourceTree = "<group>"; };
+		59220BB21A51DE7F007230A8 /* Mr. Bean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mr. Bean.jpg"; sourceTree = "<group>"; };
+		59220BB31A51DE7F007230A8 /* Olive Kitteridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Olive Kitteridge.jpg"; sourceTree = "<group>"; };
+		59220BB41A51DE7F007230A8 /* Once Upon a Time.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Once Upon a Time.jpg"; sourceTree = "<group>"; };
+		59220BB51A51DE7F007230A8 /* Orange is the New Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Orange is the New Black.jpg"; sourceTree = "<group>"; };
+		59220BB61A51DE7F007230A8 /* Orphan Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Orphan Black.jpg"; sourceTree = "<group>"; };
+		59220BB71A51DE7F007230A8 /* Penny Dreadful.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Penny Dreadful.jpg"; sourceTree = "<group>"; };
+		59220BB81A51DE7F007230A8 /* Person of Interest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Person of Interest.jpg"; sourceTree = "<group>"; };
+		59220BB91A51DE7F007230A8 /* Planet Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Planet Earth.jpg"; sourceTree = "<group>"; };
+		59220BBA1A51DE7F007230A8 /* Prison Break.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prison Break.jpg"; sourceTree = "<group>"; };
+		59220BBB1A51DE7F007230A8 /* Rick and Morty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rick and Morty.jpg"; sourceTree = "<group>"; };
+		59220BBC1A51DE7F007230A8 /* Seinfeld.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seinfeld.jpg; sourceTree = "<group>"; };
+		59220BBD1A51DE7F007230A8 /* Sherlock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sherlock.jpg; sourceTree = "<group>"; };
+		59220BBE1A51DE7F007230A8 /* Silicon Valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Silicon Valley.jpg"; sourceTree = "<group>"; };
+		59220BBF1A51DE7F007230A8 /* Sleepy Hollow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sleepy Hollow.jpg"; sourceTree = "<group>"; };
+		59220BC01A51DE7F007230A8 /* Star Wars - The Clone Wars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Star Wars - The Clone Wars.jpg"; sourceTree = "<group>"; };
+		59220BC11A51DE7F007230A8 /* Star Wars Rebels.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Star Wars Rebels.jpg"; sourceTree = "<group>"; };
+		59220BC21A51DE7F007230A8 /* The Adventures of Sherlock Holmes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Adventures of Sherlock Holmes.jpg"; sourceTree = "<group>"; };
+		59220BC31A51DE7F007230A8 /* The Big Bang Theory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Big Bang Theory.jpg"; sourceTree = "<group>"; };
+		59220BC41A51DE7F007230A8 /* The Blacklist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Blacklist.jpg"; sourceTree = "<group>"; };
+		59220BC51A51DE7F007230A8 /* The Crazy Ones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Crazy Ones.jpg"; sourceTree = "<group>"; };
+		59220BC61A51DE7F007230A8 /* The Cyanide and Happiness Show.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Cyanide and Happiness Show.jpg"; sourceTree = "<group>"; };
+		59220BC71A51DE7F007230A8 /* The Flash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Flash.jpg"; sourceTree = "<group>"; };
+		59220BC81A51DE7F007230A8 /* The Office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Office.jpg"; sourceTree = "<group>"; };
+		59220BC91A51DE7F007230A8 /* The Thick of It.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Thick of It.jpg"; sourceTree = "<group>"; };
+		59220BCA1A51DE7F007230A8 /* The Walking Dead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Walking Dead.jpg"; sourceTree = "<group>"; };
+		59220BCB1A51DE7F007230A8 /* The Wire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Wire.jpg"; sourceTree = "<group>"; };
+		59220BCC1A51DE7F007230A8 /* Torchwood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Torchwood.jpg; sourceTree = "<group>"; };
+		59220BCD1A51DE7F007230A8 /* True Blood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "True Blood.jpg"; sourceTree = "<group>"; };
+		59220BCE1A51DE7F007230A8 /* True Detective.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "True Detective.jpg"; sourceTree = "<group>"; };
+		59220BCF1A51DE7F007230A8 /* Two and a Half Men.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Two and a Half Men.jpg"; sourceTree = "<group>"; };
+		59220BD01A51DE7F007230A8 /* Under the Dome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Under the Dome.jpg"; sourceTree = "<group>"; };
+		5941C0221ABAF63A00A5C5EC /* iZombie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iZombie.jpg; sourceTree = "<group>"; };
+		5941C0241ABAF67200A5C5EC /* How to Get Away with Murder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "How to Get Away with Murder.jpg"; sourceTree = "<group>"; };
+		5941C0261ABAF83C00A5C5EC /* The Last Man on Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Last Man on Earth.jpg"; sourceTree = "<group>"; };
+		596A2F5F1A62F7B400E327D7 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		596A2F601A62F7B400E327D7 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		597C3B481A56AF6D009A9572 /* Battlestar Galactica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Battlestar Galactica.jpg"; sourceTree = "<group>"; };
+		597C3B491A56AF6D009A9572 /* Buffy the Vampire Slayer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Buffy the Vampire Slayer.jpg"; sourceTree = "<group>"; };
+		5988E9971A52EEF300F90FB4 /* TVIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TVIcon.png; sourceTree = "<group>"; };
+		5988E9991A52F58400F90FB4 /* topView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = topView.xib; sourceTree = "<group>"; };
+		5988E99B1A52F63C00F90FB4 /* topView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topView.h; sourceTree = "<group>"; };
+		5988E99C1A52F63C00F90FB4 /* topView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topView.m; sourceTree = "<group>"; };
+		599AE18C1A8DD75400E122C1 /* Better Call Saul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Better Call Saul.jpg"; sourceTree = "<group>"; };
+		599AE18D1A8DD75400E122C1 /* Fringe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fringe.jpg; sourceTree = "<group>"; };
+		599AE18E1A8DD75400E122C1 /* Marvel's Agent Carter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marvel's Agent Carter.jpg"; sourceTree = "<group>"; };
+		599AE1901A8DD75400E122C1 /* White Collar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "White Collar.jpg"; sourceTree = "<group>"; };
+		599AE1961A8DD80A00E122C1 /* Utopia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Utopia.jpg; sourceTree = "<group>"; };
+		599AE1981A8DDBF100E122C1 /* 12 Monkeys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12 Monkeys.jpg"; sourceTree = "<group>"; };
+		599AE1991A8DDBF100E122C1 /* Vikings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vikings.jpg; sourceTree = "<group>"; };
+		59A617B71A5852F200F74465 /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
+		59A617B91A5852F200F74465 /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@2x.png"; sourceTree = "<group>"; };
+		59A617BA1A5852F200F74465 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		59A617BF1A58559800F74465 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		59A617C01A58559800F74465 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		59A617C11A58559800F74465 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		59A617C21A58559800F74465 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		59A617C31A58559800F74465 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		59A617C41A58559800F74465 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		59A617C51A58559800F74465 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		59A617C61A58559800F74465 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		59A617C71A58559800F74465 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		59A617C81A58559800F74465 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		59A617C91A58559800F74465 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		59A617CA1A58559800F74465 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		59A617D11A585D9100F74465 /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
+		59A617D31A58623E00F74465 /* bin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bin@2x.png"; sourceTree = "<group>"; };
+		59A617D51A58655C00F74465 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		59A617D71A58675700F74465 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		59C9761D1A551ADC00820B37 /* Spaced.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spaced.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +268,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A617D81A58675700F74465 /* Social.framework in Frameworks */,
+				59A617D61A58655C00F74465 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +286,8 @@
 		59220B411A51A200007230A8 = {
 			isa = PBXGroup;
 			children = (
+				59A617D71A58675700F74465 /* Social.framework */,
+				59A617D51A58655C00F74465 /* MessageUI.framework */,
 				59220B4C1A51A200007230A8 /* TVListing3 */,
 				59220B661A51A200007230A8 /* TVListing3Tests */,
 				59220B4B1A51A200007230A8 /* Products */,
@@ -83,11 +308,23 @@
 			children = (
 				59220B511A51A200007230A8 /* AppDelegate.h */,
 				59220B521A51A200007230A8 /* AppDelegate.m */,
-				59220B541A51A200007230A8 /* ViewController.h */,
-				59220B551A51A200007230A8 /* ViewController.m */,
 				59220B571A51A200007230A8 /* Main.storyboard */,
-				59220B5A1A51A200007230A8 /* Images.xcassets */,
+				59220B761A51A286007230A8 /* TableViewController.h */,
+				59220B771A51A286007230A8 /* TableViewController.m */,
+				59220B7E1A51B4F9007230A8 /* TVShow.h */,
+				59220B7F1A51B4F9007230A8 /* TVShow.m */,
+				59220B791A51A9A3007230A8 /* DetailViewController.h */,
+				59220B7A1A51A9A3007230A8 /* DetailViewController.m */,
+				59220B871A51BD67007230A8 /* TableViewCell.h */,
+				59220B881A51BD67007230A8 /* TableViewCell.m */,
+				596A2F5F1A62F7B400E327D7 /* AddViewController.h */,
+				596A2F601A62F7B400E327D7 /* AddViewController.m */,
+				5988E9991A52F58400F90FB4 /* topView.xib */,
+				5988E99B1A52F63C00F90FB4 /* topView.h */,
+				5988E99C1A52F63C00F90FB4 /* topView.m */,
 				59220B5C1A51A200007230A8 /* LaunchScreen.xib */,
+				59220B5A1A51A200007230A8 /* Images.xcassets */,
+				59A617B61A58521800F74465 /* SwipeTableCells */,
 				59220B4D1A51A200007230A8 /* Supporting Files */,
 			);
 			path = TVListing3;
@@ -96,8 +333,12 @@
 		59220B4D1A51A200007230A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59220B7C1A51AAC8007230A8 /* TVList.json */,
+				5988E9971A52EEF300F90FB4 /* TVIcon.png */,
 				59220B4E1A51A200007230A8 /* Info.plist */,
 				59220B4F1A51A200007230A8 /* main.m */,
+				596A2F591A629E0B00E327D7 /* Other Images */,
+				59220C181A51DE86007230A8 /* Show Images */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +358,128 @@
 				59220B681A51A200007230A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59220C181A51DE86007230A8 /* Show Images */ = {
+			isa = PBXGroup;
+			children = (
+				597C3B481A56AF6D009A9572 /* Battlestar Galactica.jpg */,
+				5941C0261ABAF83C00A5C5EC /* The Last Man on Earth.jpg */,
+				597C3B491A56AF6D009A9572 /* Buffy the Vampire Slayer.jpg */,
+				5941C0241ABAF67200A5C5EC /* How to Get Away with Murder.jpg */,
+				5941C0221ABAF63A00A5C5EC /* iZombie.jpg */,
+				59C9761D1A551ADC00820B37 /* Spaced.jpg */,
+				599AE1961A8DD80A00E122C1 /* Utopia.jpg */,
+				599AE1981A8DDBF100E122C1 /* 12 Monkeys.jpg */,
+				599AE1991A8DDBF100E122C1 /* Vikings.jpg */,
+				599AE18C1A8DD75400E122C1 /* Better Call Saul.jpg */,
+				599AE18D1A8DD75400E122C1 /* Fringe.jpg */,
+				599AE18E1A8DD75400E122C1 /* Marvel's Agent Carter.jpg */,
+				599AE1901A8DD75400E122C1 /* White Collar.jpg */,
+				59220B8A1A51DE7F007230A8 /* 24.jpg */,
+				59220B8B1A51DE7F007230A8 /* American Horror Story.jpg */,
+				59220B8C1A51DE7F007230A8 /* Archer.jpg */,
+				59220B8D1A51DE7F007230A8 /* Arrested Developement.jpg */,
+				59220B8E1A51DE7F007230A8 /* Arrow.jpg */,
+				59220B8F1A51DE7F007230A8 /* Attack on Titan.jpg */,
+				59220B901A51DE7F007230A8 /* Boston Legal.jpg */,
+				59220B911A51DE7F007230A8 /* Boy Meets World.jpg */,
+				59220B921A51DE7F007230A8 /* Breaking Bad.jpg */,
+				59220B931A51DE7F007230A8 /* Brooklyn Nine-Nine.jpg */,
+				59220B941A51DE7F007230A8 /* Castle.jpg */,
+				59220B951A51DE7F007230A8 /* Community.jpg */,
+				59220B961A51DE7F007230A8 /* Cosmos - A Personal Voyage.jpg */,
+				59220B971A51DE7F007230A8 /* Cosmos - A Spacetime Odessy.jpg */,
+				59220B981A51DE7F007230A8 /* Coupling.jpg */,
+				59220B991A51DE7F007230A8 /* Da Vinci's Demons.jpg */,
+				59220B9A1A51DE7F007230A8 /* Death Note.jpg */,
+				59220B9B1A51DE7F007230A8 /* Dexter.jpg */,
+				59220B9C1A51DE7F007230A8 /* Doctor Who.jpg */,
+				59220B9D1A51DE7F007230A8 /* Dragon Ball GT.jpg */,
+				59220B9E1A51DE7F007230A8 /* Dragon Ball Z.jpg */,
+				59220B9F1A51DE7F007230A8 /* Fargo.jpg */,
+				59220BA01A51DE7F007230A8 /* Firefly.jpg */,
+				59220BA11A51DE7F007230A8 /* Friends.jpg */,
+				59220BA21A51DE7F007230A8 /* Game of Thrones.jpg */,
+				59220BA31A51DE7F007230A8 /* Gotham.jpg */,
+				59220BA41A51DE7F007230A8 /* Gracepoint.jpg */,
+				59220BA51A51DE7F007230A8 /* Hannibal.jpg */,
+				59220BA61A51DE7F007230A8 /* Homeland.jpg */,
+				59220BA71A51DE7F007230A8 /* House MD.jpg */,
+				59220BA81A51DE7F007230A8 /* House of Cards.jpg */,
+				59220BA91A51DE7F007230A8 /* How I Met Your Mother.jpg */,
+				59220BAA1A51DE7F007230A8 /* Intelligence US.jpg */,
+				59220BAB1A51DE7F007230A8 /* Joey.jpg */,
+				59220BAC1A51DE7F007230A8 /* Mad Men.jpg */,
+				59220BAD1A51DE7F007230A8 /* Malcolm in the Middle.jpg */,
+				59220BAE1A51DE7F007230A8 /* Marvel's Agents of SHIELD.jpg */,
+				59220BAF1A51DE7F007230A8 /* Masters of Sex.jpg */,
+				59220BB01A51DE7F007230A8 /* Men At Work.jpg */,
+				59220BB11A51DE7F007230A8 /* Modern Family.jpg */,
+				59220BB21A51DE7F007230A8 /* Mr. Bean.jpg */,
+				59220BB31A51DE7F007230A8 /* Olive Kitteridge.jpg */,
+				59220BB41A51DE7F007230A8 /* Once Upon a Time.jpg */,
+				59220BB51A51DE7F007230A8 /* Orange is the New Black.jpg */,
+				59220BB61A51DE7F007230A8 /* Orphan Black.jpg */,
+				59220BB71A51DE7F007230A8 /* Penny Dreadful.jpg */,
+				59220BB81A51DE7F007230A8 /* Person of Interest.jpg */,
+				59220BB91A51DE7F007230A8 /* Planet Earth.jpg */,
+				59220BBA1A51DE7F007230A8 /* Prison Break.jpg */,
+				59220BBB1A51DE7F007230A8 /* Rick and Morty.jpg */,
+				59220BBC1A51DE7F007230A8 /* Seinfeld.jpg */,
+				59220BBD1A51DE7F007230A8 /* Sherlock.jpg */,
+				59220BBE1A51DE7F007230A8 /* Silicon Valley.jpg */,
+				59220BBF1A51DE7F007230A8 /* Sleepy Hollow.jpg */,
+				59220BC01A51DE7F007230A8 /* Star Wars - The Clone Wars.jpg */,
+				59220BC11A51DE7F007230A8 /* Star Wars Rebels.jpg */,
+				59220BC21A51DE7F007230A8 /* The Adventures of Sherlock Holmes.jpg */,
+				59220BC31A51DE7F007230A8 /* The Big Bang Theory.jpg */,
+				59220BC41A51DE7F007230A8 /* The Blacklist.jpg */,
+				59220BC51A51DE7F007230A8 /* The Crazy Ones.jpg */,
+				59220BC61A51DE7F007230A8 /* The Cyanide and Happiness Show.jpg */,
+				59220BC71A51DE7F007230A8 /* The Flash.jpg */,
+				59220BC81A51DE7F007230A8 /* The Office.jpg */,
+				59220BC91A51DE7F007230A8 /* The Thick of It.jpg */,
+				59220BCA1A51DE7F007230A8 /* The Walking Dead.jpg */,
+				59220BCB1A51DE7F007230A8 /* The Wire.jpg */,
+				59220BCC1A51DE7F007230A8 /* Torchwood.jpg */,
+				59220BCD1A51DE7F007230A8 /* True Blood.jpg */,
+				59220BCE1A51DE7F007230A8 /* True Detective.jpg */,
+				59220BCF1A51DE7F007230A8 /* Two and a Half Men.jpg */,
+				59220BD01A51DE7F007230A8 /* Under the Dome.jpg */,
+			);
+			name = "Show Images";
+			sourceTree = "<group>";
+		};
+		596A2F591A629E0B00E327D7 /* Other Images */ = {
+			isa = PBXGroup;
+			children = (
+				59A617D31A58623E00F74465 /* bin@2x.png */,
+				59A617B71A5852F200F74465 /* facebook@2x.png */,
+				59A617D11A585D9100F74465 /* save@2x.png */,
+				59A617B91A5852F200F74465 /* message@2x.png */,
+				59A617BA1A5852F200F74465 /* twitter@2x.png */,
+			);
+			name = "Other Images";
+			sourceTree = "<group>";
+		};
+		59A617B61A58521800F74465 /* SwipeTableCells */ = {
+			isa = PBXGroup;
+			children = (
+				59A617BF1A58559800F74465 /* NSMutableArray+SWUtilityButtons.h */,
+				59A617C01A58559800F74465 /* NSMutableArray+SWUtilityButtons.m */,
+				59A617C11A58559800F74465 /* SWCellScrollView.h */,
+				59A617C21A58559800F74465 /* SWCellScrollView.m */,
+				59A617C31A58559800F74465 /* SWLongPressGestureRecognizer.h */,
+				59A617C41A58559800F74465 /* SWLongPressGestureRecognizer.m */,
+				59A617C51A58559800F74465 /* SWTableViewCell.h */,
+				59A617C61A58559800F74465 /* SWTableViewCell.m */,
+				59A617C71A58559800F74465 /* SWUtilityButtonTapGestureRecognizer.h */,
+				59A617C81A58559800F74465 /* SWUtilityButtonTapGestureRecognizer.m */,
+				59A617C91A58559800F74465 /* SWUtilityButtonView.h */,
+				59A617CA1A58559800F74465 /* SWUtilityButtonView.m */,
+			);
+			name = SwipeTableCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +562,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59220C0C1A51DE7F007230A8 /* The Crazy Ones.jpg in Resources */,
+				59220BD11A51DE7F007230A8 /* 24.jpg in Resources */,
+				59220BF31A51DE7F007230A8 /* Mad Men.jpg in Resources */,
+				599AE1951A8DD75400E122C1 /* White Collar.jpg in Resources */,
+				59220BFE1A51DE7F007230A8 /* Penny Dreadful.jpg in Resources */,
+				59220BDC1A51DE7F007230A8 /* Community.jpg in Resources */,
+				59220BE01A51DE7F007230A8 /* Da Vinci's Demons.jpg in Resources */,
+				59220BEF1A51DE7F007230A8 /* House of Cards.jpg in Resources */,
+				59220BED1A51DE7F007230A8 /* Homeland.jpg in Resources */,
+				59A617D41A58623E00F74465 /* bin@2x.png in Resources */,
+				59220C101A51DE7F007230A8 /* The Thick of It.jpg in Resources */,
+				599AE1971A8DD80A00E122C1 /* Utopia.jpg in Resources */,
+				599AE1911A8DD75400E122C1 /* Better Call Saul.jpg in Resources */,
+				59220C001A51DE7F007230A8 /* Planet Earth.jpg in Resources */,
+				59220C031A51DE7F007230A8 /* Seinfeld.jpg in Resources */,
+				59220BDE1A51DE7F007230A8 /* Cosmos - A Spacetime Odessy.jpg in Resources */,
+				59220BD71A51DE7F007230A8 /* Boston Legal.jpg in Resources */,
+				59A617BB1A5852F200F74465 /* facebook@2x.png in Resources */,
+				59220C171A51DE7F007230A8 /* Under the Dome.jpg in Resources */,
+				59220C111A51DE7F007230A8 /* The Walking Dead.jpg in Resources */,
+				59220BDB1A51DE7F007230A8 /* Castle.jpg in Resources */,
+				59220BF11A51DE7F007230A8 /* Intelligence US.jpg in Resources */,
+				59A617D21A585D9100F74465 /* save@2x.png in Resources */,
+				59220BFC1A51DE7F007230A8 /* Orange is the New Black.jpg in Resources */,
+				59220BD61A51DE7F007230A8 /* Attack on Titan.jpg in Resources */,
+				59220C081A51DE7F007230A8 /* Star Wars Rebels.jpg in Resources */,
+				59220BE71A51DE7F007230A8 /* Firefly.jpg in Resources */,
+				599AE1931A8DD75400E122C1 /* Marvel's Agent Carter.jpg in Resources */,
+				597C3B4A1A56AF6D009A9572 /* Battlestar Galactica.jpg in Resources */,
+				59220BF41A51DE7F007230A8 /* Malcolm in the Middle.jpg in Resources */,
+				59220C131A51DE7F007230A8 /* Torchwood.jpg in Resources */,
+				59220BE21A51DE7F007230A8 /* Dexter.jpg in Resources */,
+				59220BFF1A51DE7F007230A8 /* Person of Interest.jpg in Resources */,
+				59220BE81A51DE7F007230A8 /* Friends.jpg in Resources */,
+				59220BF81A51DE7F007230A8 /* Modern Family.jpg in Resources */,
+				597C3B4B1A56AF6D009A9572 /* Buffy the Vampire Slayer.jpg in Resources */,
+				59220C161A51DE7F007230A8 /* Two and a Half Men.jpg in Resources */,
+				59220BDD1A51DE7F007230A8 /* Cosmos - A Personal Voyage.jpg in Resources */,
+				59220C0B1A51DE7F007230A8 /* The Blacklist.jpg in Resources */,
+				59220BEA1A51DE7F007230A8 /* Gotham.jpg in Resources */,
+				59220BF91A51DE7F007230A8 /* Mr. Bean.jpg in Resources */,
+				599AE19B1A8DDBF100E122C1 /* Vikings.jpg in Resources */,
+				59220C151A51DE7F007230A8 /* True Detective.jpg in Resources */,
+				59220BD31A51DE7F007230A8 /* Archer.jpg in Resources */,
+				59220BEE1A51DE7F007230A8 /* House MD.jpg in Resources */,
+				59220C0D1A51DE7F007230A8 /* The Cyanide and Happiness Show.jpg in Resources */,
+				59220BE41A51DE7F007230A8 /* Dragon Ball GT.jpg in Resources */,
+				59220BE51A51DE7F007230A8 /* Dragon Ball Z.jpg in Resources */,
+				59220BD51A51DE7F007230A8 /* Arrow.jpg in Resources */,
+				59220BF01A51DE7F007230A8 /* How I Met Your Mother.jpg in Resources */,
+				5988E99A1A52F58400F90FB4 /* topView.xib in Resources */,
+				59220C141A51DE7F007230A8 /* True Blood.jpg in Resources */,
+				59220BD41A51DE7F007230A8 /* Arrested Developement.jpg in Resources */,
+				59220BDA1A51DE7F007230A8 /* Brooklyn Nine-Nine.jpg in Resources */,
 				59220B591A51A200007230A8 /* Main.storyboard in Resources */,
+				59220C121A51DE7F007230A8 /* The Wire.jpg in Resources */,
+				59220C061A51DE7F007230A8 /* Sleepy Hollow.jpg in Resources */,
+				59220BF21A51DE7F007230A8 /* Joey.jpg in Resources */,
+				59220B7D1A51AAC8007230A8 /* TVList.json in Resources */,
+				59220BE91A51DE7F007230A8 /* Game of Thrones.jpg in Resources */,
+				59220BEB1A51DE7F007230A8 /* Gracepoint.jpg in Resources */,
+				59220BD91A51DE7F007230A8 /* Breaking Bad.jpg in Resources */,
+				59220BF71A51DE7F007230A8 /* Men At Work.jpg in Resources */,
+				59220C091A51DE7F007230A8 /* The Adventures of Sherlock Holmes.jpg in Resources */,
+				5941C0271ABAF83C00A5C5EC /* The Last Man on Earth.jpg in Resources */,
+				59220BE31A51DE7F007230A8 /* Doctor Who.jpg in Resources */,
+				59220C0F1A51DE7F007230A8 /* The Office.jpg in Resources */,
+				59220BEC1A51DE7F007230A8 /* Hannibal.jpg in Resources */,
+				59220C0E1A51DE7F007230A8 /* The Flash.jpg in Resources */,
+				59220C011A51DE7F007230A8 /* Prison Break.jpg in Resources */,
+				59A617BE1A5852F200F74465 /* twitter@2x.png in Resources */,
+				59220BE11A51DE7F007230A8 /* Death Note.jpg in Resources */,
+				59220BFD1A51DE7F007230A8 /* Orphan Black.jpg in Resources */,
+				5988E9981A52EEF300F90FB4 /* TVIcon.png in Resources */,
 				59220B5E1A51A200007230A8 /* LaunchScreen.xib in Resources */,
+				59A617BD1A5852F200F74465 /* message@2x.png in Resources */,
+				59220BFA1A51DE7F007230A8 /* Olive Kitteridge.jpg in Resources */,
+				59220BE61A51DE7F007230A8 /* Fargo.jpg in Resources */,
 				59220B5B1A51A200007230A8 /* Images.xcassets in Resources */,
+				599AE19A1A8DDBF100E122C1 /* 12 Monkeys.jpg in Resources */,
+				59220BD81A51DE7F007230A8 /* Boy Meets World.jpg in Resources */,
+				59220C021A51DE7F007230A8 /* Rick and Morty.jpg in Resources */,
+				59220C051A51DE7F007230A8 /* Silicon Valley.jpg in Resources */,
+				59220BF51A51DE7F007230A8 /* Marvel's Agents of SHIELD.jpg in Resources */,
+				59220C071A51DE7F007230A8 /* Star Wars - The Clone Wars.jpg in Resources */,
+				5941C0251ABAF67200A5C5EC /* How to Get Away with Murder.jpg in Resources */,
+				59220BF61A51DE7F007230A8 /* Masters of Sex.jpg in Resources */,
+				5941C0231ABAF63A00A5C5EC /* iZombie.jpg in Resources */,
+				59220BDF1A51DE7F007230A8 /* Coupling.jpg in Resources */,
+				599AE1921A8DD75400E122C1 /* Fringe.jpg in Resources */,
+				59220C0A1A51DE7F007230A8 /* The Big Bang Theory.jpg in Resources */,
+				59220BD21A51DE7F007230A8 /* American Horror Story.jpg in Resources */,
+				59C9761E1A551ADC00820B37 /* Spaced.jpg in Resources */,
+				59220C041A51DE7F007230A8 /* Sherlock.jpg in Resources */,
+				59220BFB1A51DE7F007230A8 /* Once Upon a Time.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +674,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59220B561A51A200007230A8 /* ViewController.m in Sources */,
 				59220B531A51A200007230A8 /* AppDelegate.m in Sources */,
+				59220B891A51BD67007230A8 /* TableViewCell.m in Sources */,
+				59A617CB1A58559800F74465 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				59A617CD1A58559800F74465 /* SWLongPressGestureRecognizer.m in Sources */,
+				59A617CC1A58559800F74465 /* SWCellScrollView.m in Sources */,
+				59220B781A51A286007230A8 /* TableViewController.m in Sources */,
 				59220B501A51A200007230A8 /* main.m in Sources */,
+				5988E99D1A52F63C00F90FB4 /* topView.m in Sources */,
+				59A617D01A58559800F74465 /* SWUtilityButtonView.m in Sources */,
+				59220B7B1A51A9A3007230A8 /* DetailViewController.m in Sources */,
+				596A2F611A62F7B400E327D7 /* AddViewController.m in Sources */,
+				59A617CE1A58559800F74465 /* SWTableViewCell.m in Sources */,
+				59A617CF1A58559800F74465 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				59220B801A51B4F9007230A8 /* TVShow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +809,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = TVListing3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +821,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = TVListing3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +882,7 @@
 				59220B6F1A51A200007230A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59220B701A51A200007230A8 /* Build configuration list for PBXNativeTarget "TVListing3Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +891,7 @@
 				59220B721A51A200007230A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
