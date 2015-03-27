@@ -411,15 +411,16 @@
 	 if (self.searchDisplayController.isActive){
 		 return NO;
 	 }
-	 TVShow *show = [ShowList objectAtIndex:indexPath.row];
-	 if ([show.Title isEqualToString: @"Breaking Bad"] ||
-		 [show.Title isEqualToString: @"Firefly"] ||
-		 [show.Title isEqualToString: @"Game of Thrones"] ||
-		 [show.Title isEqualToString: @"House of Cards"] ||
-		 [show.Title isEqualToString: @"Doctor Who"] ||
-		 [show.Title isEqualToString: @"Sherlock"]) {
-		return NO;
-	 }
+	 // Selective Editing
+//	 TVShow *show = [ShowList objectAtIndex:indexPath.row];
+//	 if ([show.Title isEqualToString: @"Breaking Bad"] ||
+//		 [show.Title isEqualToString: @"Firefly"] ||
+//		 [show.Title isEqualToString: @"Game of Thrones"] ||
+//		 [show.Title isEqualToString: @"House of Cards"] ||
+//		 [show.Title isEqualToString: @"Doctor Who"] ||
+//		 [show.Title isEqualToString: @"Sherlock"]) {
+//		return NO;
+//	 }
 	 return YES;
  }
 
@@ -436,13 +437,5 @@
 	NSString *documentsPath = [paths objectAtIndex:0];
 	return [documentsPath stringByAppendingPathComponent:name];
 }
-
-/*
- // Override to support conditional rearranging of the table view.
- - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
- // Return NO if you do not want the item to be re-orderable.
- return YES;
- }
- */
 
 @end
